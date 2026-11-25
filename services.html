@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plumbing, drainage, bathroom tiling, construction, and custom steelwork services by Ramogotlo Plumbing & Construction.">
+  <title>Services | Ramogotlo Plumbing & Construction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ramogotlo home">
+      <img src="assets/logo.png" alt="Ramogotlo Plumbing and Construction Pty Ltd logo">
+      <span class="brand-copy"><strong>RAMOGOTLO</strong><small>PLUMBING &amp; CONSTRUCTION</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu" class="nav-menu">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="services.html">Services</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+      <a class="nav-quote" href="contact.html">Request a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <p class="eyebrow">What We Do</p>
+      <h1>Our Services</h1>
+      <p>Complete plumbing, construction, and custom steel fabrication for residential and commercial properties.</p>
+    </section>
+
+    <section class="services section">
+      <div class="service-grid-3">
+        <article class="service-card" id="plumbing">
+          <img src="assets/service-geyser.jpeg" alt="Geyser and copper pipe installation">
+          <div class="service-card-content">
+            <h3>Geyser &amp; Water Supply</h3>
+            <p>Installation and maintenance of domestic geysers, copper pipework, pressure control valves, and backup water tank plumbing.</p>
+            <a href="contact.html?service=Plumbing">Enquire about geysers <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card" id="bathroom">
+          <img src="assets/service-toilet.jpeg" alt="Wall-hung toilet and marble wall tiling">
+          <div class="service-card-content">
+            <h3>Bathroom &amp; Sanitaryware</h3>
+            <p>Modern wall-hung toilets, concealed cisterns, bathtubs, basins, and precision porcelain and marble-look tiling.</p>
+            <a href="contact.html?service=Plumbing">Enquire about bathrooms <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card" id="drainage">
+          <img src="assets/service-drainage.jpeg" alt="PVC drainage and underground trench pipes">
+          <div class="service-card-content">
+            <h3>Drainage &amp; Sewer Lines</h3>
+            <p>Trenching, underground sewer pipe laying, exterior waste networks, gully traps, and blocked drain repairs.</p>
+            <a href="contact.html?service=Plumbing">Enquire about drainage <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card" id="steelwork">
+          <img src="assets/service-gate.jpeg" alt="Custom steel sliding gate installation">
+          <div class="service-card-content">
+            <h3>Custom Gates &amp; Brickwork</h3>
+            <p>Heavy-duty steel sliding and swing gates, tracks, and on-site welding and fitting.</p>
+            <a href="contact.html?service=Construction">Enquire about gates <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/service-door.jpeg" alt="Modern steel and wood-panel front door">
+          <div class="service-card-content">
+            <h3>Custom Entrance Doors</h3>
+            <p>Bespoke steel-framed entrance doors with modern timber-finish panels and architectural handles.</p>
+            <a href="contact.html?service=Construction">Enquire about doors <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/service-security.jpeg" alt="Burglar bars and protective spray painting">
+          <div class="service-card-content">
+            <h3>Security Bars &amp; Finishing</h3>
+            <p>Expandable and fixed security gates, window burglar bars, rust-resistant priming, and spray-paint finishing.</p>
+            <a href="contact.html?service=Construction">Enquire about security work <span>→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="cta-banner-inner">
+        <div>
+          <h2>Need a custom combination of services?</h2>
+          <p>Whether it’s a new build, renovation, or repair, we handle it from start to finish.</p>
+        </div>
+        <a class="button button-orange" href="contact.html">Get a Free Quote <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html" class="footer-brand"><img src="assets/logo.png" alt="Ramogotlo logo"><span>RAMOGOTLO<br><small>PLUMBING &amp; CONSTRUCTION</small></span></a>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>© <span id="year"></span> Ramogotlo Plumbing &amp; Construction Pty Ltd. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
